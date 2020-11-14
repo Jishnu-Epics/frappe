@@ -4400,9 +4400,7 @@ Message (HTML),الرسالة (HTML),
 Send Attachments,إرسال المرفقات,
 Testing,اختبارات,
 System Notification,إعلام النظام,
-WhatsApp,ال WhatsApp,
 Twilio Number,رقم تويليو,
-"To use WhatsApp for Business, initialize <a href=""#Form/Twilio Settings"">Twilio Settings</a>.","لاستخدام WhatsApp for Business ، قم بتهيئة <a href=""#Form/Twilio Settings"">Twilio Settings</a> .",
 "To use Slack Channel, add a <a href=""#List/Slack%20Webhook%20URL/List"">Slack Webhook URL</a>.","لاستخدام قناة Slack ، أضف <a href=""#List/Slack%20Webhook%20URL/List"">عنوان URL لـ Slack Webhook</a> .",
 Send System Notification,إرسال إشعار النظام,
 "If enabled, the notification will show up in the notifications dropdown on the top right corner of the navigation bar.",في حالة التمكين ، سيظهر الإشعار في القائمة المنسدلة للإشعارات أعلى الزاوية اليمنى من شريط التنقل.,
@@ -4557,7 +4555,6 @@ Failed to send {0} Auto Email Report,فشل إرسال تقرير البريد �
 Test email sent to {0},تم إرسال بريد إلكتروني تجريبي إلى {0},
 Email queued to {0} recipients,تم وضع البريد الإلكتروني في قائمة الانتظار لـ {0} من المستلمين,
 Newsletter should have at least one recipient,يجب أن تحتوي الرسالة الإخبارية على مستلم واحد على الأقل,
-Please enable Twilio settings to send WhatsApp messages,يرجى تمكين إعدادات Twilio لإرسال رسائل WhatsApp,
 "Not allowed to attach {0} document, please enable Allow Print For {0} in Print Settings",غير مسموح بإرفاق مستند {0} ، يرجى تمكين السماح بالطباعة لـ {0} في إعدادات الطباعة,
 Signup Disabled,تم تعطيل التسجيل,
 Signups have been disabled for this website.,تم تعطيل الاشتراكات لهذا الموقع.,
@@ -4594,10 +4591,6 @@ Razorpay Signature Verification Failed,فشل التحقق من توقيع Razor
 Google Drive - Could not locate - {0},Google Drive - تعذر تحديد الموقع - {0},
 "Sync token was invalid and has been resetted, Retry syncing.",كان رمز المزامنة المميز غير صالح وتم إعادة ضبطه ، أعد محاولة المزامنة.,
 Please select another payment method. Paytm does not support transactions in currency '{0}',الرجاء تحديد طريقة دفع أخرى. لا يدعم Paytm المعاملات بالعملة &quot;{0}&quot;,
-Invalid Account SID or Auth Token.,SID الحساب أو رمز المصادقة غير صالح.,
-Please enable twilio settings before sending WhatsApp messages,يرجى تمكين إعدادات twilio قبل إرسال رسائل WhatsApp,
-Delivery Failed,فشل التسليم,
-Twilio WhatsApp Message Error,خطأ رسالة Twilio WhatsApp,
 A featured post must have a cover image,يجب أن تحتوي الوظيفة المميزة على صورة غلاف,
 Load More,تحميل المزيد,
 Published on,نشرت في,
@@ -4616,6 +4609,7 @@ Please set the following documents in this Dashboard as standard first.,يرجى
 Shared with the following Users with Read access:{0},مشترك مع المستخدمين التاليين الذين لهم حق الوصول للقراءة: {0},
 Already in the following Users ToDo list:{0},بالفعل في قائمة &quot;المهام للمستخدمين&quot; التالية: {0},
 Your assignment on {0} {1} has been removed by {2},تمت إزالة واجبك في {0} {1} بواسطة {2},
+Consumer,مستهلك,
 Invalid Credentials,بيانات الاعتماد غير صالحة,
 Print UOM after Quantity,اطبع UOM بعد الكمية,
 Uncaught Server Exception,استثناء خادم لم يتم اكتشافه,
@@ -4700,3 +4694,7 @@ Value cannot be negative for {0}: {1},لا يمكن أن تكون القيمة �
 Negative Value,قيمة سالبة,
 Authentication failed while receiving emails from Email Account: {0}.,فشلت المصادقة أثناء تلقي رسائل البريد الإلكتروني من حساب البريد الإلكتروني: {0}.,
 Message from server: {0},رسالة من الخادم: {0},
+Consumers,المستهلكون,
+Event Update Log Consumer,المستهلك سجل تحديث الحدث,
+Row #{0}: Could not find field {1} in {2} DocType,الصف # {0}: تعذر العثور على الحقل {1} في {2} DocType,
+Invalid Fieldname,اسم الحقل غير صالح,
